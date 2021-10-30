@@ -1,0 +1,156 @@
+body {
+  font-family: "montserrat";
+}
+h1 {
+  font-family: "montserrat-black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h2 {
+  font-family: "montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* h3 {
+  font-family: "montserrat-black";
+  font-size: 2rem;
+} */
+.me {
+  margin-left: auto;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* navigaion bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+  /* position: fixed;
+  top: 0px; */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "montserrat-light", sans-serif;
+  font-size: 1.2rem;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* title image  */
+.title-img {
+  width: 60%;
+  transform: rotate(20deg);
+}
+.container {
+  padding: 0;
+}
+/* features section  */
+#features {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+  position: relative;
+}
+.feature {
+  margin: 40px auto;
+}
+h3 {
+  font-family: "montserrat-bold";
+  font-size: 1.5rem;
+}
+.feature-font {
+  color: #ff4c68;
+}
+.feature-font:hover {
+  color: blue;
+}
+
+/* testimonial section  */
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* press section  */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing  */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* call to contact */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 5%;
+}
+.cta-txt {
+  /* font-family: "montserrat-black";
+  font-size: 2rem;*/
+  color: white;
+  font-family: "montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* footer  */
+#footer {
+  text-align: center;
+  padding: 3.5% 7%;
+}
+.social-media {
+  padding: 5% 0px;
+}
+.social-media a{
+  color:black;
+}
+.social-media a:hover{
+  color:blue;
+}
+.fa-social {
+  padding: 0 10px;
+}
+
+/* Media query  */
+@media screen and (max-width: 600px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    transform: rotate(0);
+  }
+}
